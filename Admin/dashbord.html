@@ -1,0 +1,314 @@
+<html>
+<head>
+	<title>Dasbord</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<style>
+.table1
+{
+	background-color:black;
+	color:white;
+	bold:5px;
+}
+.b1
+{
+	background-color:#ccffff;
+	}
+.b2{
+	background-color:#ffcccc;
+}
+.img1
+{
+	padding:4px;
+}
+.left_side
+{
+	float:left;
+	width:16%;
+	border-right:0px solid black;
+	height:100%;
+	padding-left:0px;
+	background-color:black;
+}
+.right_side
+{
+	float:right;
+	width:82%;
+	border-left:1px solid black;
+	height:100%;
+	padding:0px;
+	box-shadow:2px 2px #c2c2f0;
+	background-color:#97a58a26;
+}
+.content
+{
+	clear:both;
+	padding:0px;
+}
+.nav
+{
+	background-color:black;
+	color:white;
+	height:30px;
+	
+	
+	
+}
+.left_side img
+{
+	align:center;
+}
+.nav a
+{
+	align:left;
+	float:right;
+	background-color:#efefef;
+	color:black;
+	padding:6px 11px;
+	text-decoration:none;
+}
+sub
+{
+	font-size:small;
+}
+.center_img{
+	display:block;
+	 margin-left: auto;
+  margin-right: auto;
+  width:50%;
+  padding-top:5px;
+  border-radius:50%;
+}
+.header_left
+{
+	color:red;
+	font-size:20px;
+	align:center;
+	background-color:#c2c2f0;
+	padding:3px;
+	
+	box-shadow: 0px 0px 1px 0px;
+}
+.table_header
+{
+	//background-color:#c2c2f0;
+	margin-top:1px;
+	background-image: linear-gradient(to bottom right, #86cfc8 ,#94c1e5,#a2d3eb);
+	margin:5px;
+}
+.left_deshbord a
+{
+	text-decoration:none;
+	font-size:18px;
+	width:20px;
+color:white;
+flex:1;	
+}
+.left_deshbord a:hover
+{
+	background-color:white;
+	padding:5px;
+	width:30%;
+	color:black;
+	font-size:bold;
+}
+.title_admin a
+{
+	text-decoration:none;
+	align:center;
+	color:white;
+}
+.nav_1
+{
+	
+	display:inline-block;
+	padding-left:2px;
+	
+}
+.login_person p
+{
+	align:center;
+}
+.form-popup 
+{
+  display: none;
+  bottom: 0;
+  right: 15px;
+  border: 0px solid #f1f1f1;
+  z-index: 3;
+  }
+.icon_img
+{
+	flex:1;
+}
+.left_deshbord ul
+{
+	padding:5px;
+	box-sizing:border-box;
+}
+.button1
+{
+	border:none;
+	padding:15px 12px;
+	text-align:center;
+	background-color:#c2c2f0;
+	disply:inline-block;
+	font-size:15px;
+	float:right;
+	margin:2px;
+}
+#submit_cat
+{
+	border:none;
+	background-color:#04AA6D;
+	text-align:center;
+	font-size:15px;
+	display:inline-block;
+	padding:12px 15px;
+	color:white;
+}
+.table_cat
+{
+	background-color:black;
+	color:white;
+	font-size:12px;
+	text-align:center;
+}
+.b2
+{
+	background-color:#efefef;
+}
+.div1
+{
+	float:left;
+	border:0px solid black;
+	width:28%;
+	flex:1;
+	margin:3px;
+	color:white;
+	background-image: linear-gradient(to right, rgb(170 40 233 / 52%), rgb(107 35 217 / 75%));
+	
+	
+	
+}
+.div2
+{
+	float:right;
+	width:38%;
+	border:0px solid black;
+	background: linear-gradient(to right, #ffbf96, #fe7096);
+	flex:1;
+	margin:3px;
+	color:white;
+	font-type:bold;
+	
+}
+.div3
+{
+	float:right;
+	border:0px solid black;
+	width:28%;
+	background-image: linear-gradient(to right, rgb(144, 202, 249), rgb(4, 126, 223) 99%);
+	flex:1;
+	margin:3px;
+	color:white;
+}
+.dash_main
+{
+	display:flex;
+	height:100px;
+	margin-bottom:20px;
+}
+.sub_1
+{
+	flex:1;
+	margin:15px;
+	width:65%;
+	box-shadow:2px 1px 4px red;
+	height:320px;
+	padding-right:20px;
+	padding-left:20px;
+}
+.sub_2
+{
+	flex:2;
+	box-shadow:2px 1px 4px red;
+	margin:15px;
+	width:25%;
+	height:300px;
+	padding:10px;
+	padding-right:20px;
+	padding-left:20px;
+}
+.sub_part
+{
+	display:flex;
+}
+.footer
+{
+	width:100%;
+	height:200px;
+	background-color:#efefef;
+	display:flex;
+	padding:10px;
+}
+.menu_footer
+{
+	flex:1;
+}
+.task_footer
+{
+	flex:1;
+}
+</style>
+<body>
+<div class="nav"> 
+<a href="">logout</a>
+ADMIN PANEL
+</div>
+<div class="content">
+<div class="left_side">
+<div class="header_left">
+<p>sulok Digital<sub>software company</sub></p></div>
+	<img src="images/10.jpg" width="90px" class="center_img">
+	<p style="text-align:center;font-size:20px;color:#9393c5">vishal</p>
+	
+	<ul class="left_deshbord" style="list-style-type:none; padding:3px;">
+	<li><img src="images/16.png" width="15px" class="icon_img"/><a class="nav_1" href="dashbord.html">Deshbord</a></li>
+	<li><img src="images/17.png" width="15px"/><a class="nav_1" href="">MailBox</a></li>
+	<li><img src="images/18.png" width="15px"/><a  class="nav_1" href="">Forms</a></li>
+	<li><img src="images/19.png" width="15px"/><a class="nav_1" href="2.html">Table</a></li>
+	<li><img src="images/21.png" width="15px"/><a class="nav_1" href="category.html">Category</a></li>
+	<li><a href=""></a></li>
+	</ul>
+</div>
+<div class="right_side">
+	<h1 class="table_header">Dashbord</h1>
+	<div class="dash_main">
+	<span class="div1"><b>Vishal1</b></span>
+	<span class="div2"><b>vishal3</b></span>
+	<span class="div3"><b>vishal3</b></span>
+	</div>
+	<div class="sub_part">
+	<div class="sub_1">vishal</div>
+	<div class="sub_2">vishal</div>
+	</div>
+	</div>
+	
+	<!----footer---->
+	<div class="footer">
+	<div class="menu_footer">vishal</div>
+	<div class="task_footer">vishal2</div>
+	<div class="contact_footer">vishal3</div>
+	
+	</div>
+	</div>
+
+
+
+</body>
+</html>
